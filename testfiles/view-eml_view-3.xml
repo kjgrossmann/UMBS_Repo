@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<eml:eml xmlns:eml='eml://ecoinformatics.org/eml-2.1.0'
+             xmlns:stmml='http://www.xml-cml.org/schema/stmml'
+         xmlns:sw='eml://ecoinformatics.org/software-2.1.0'
+         xmlns:cit='eml://ecoinformatics.org/literature-2.1.0'
+         xmlns:ds='eml://ecoinformatics.org/dataset-2.1.0'
+         xmlns:prot='eml://ecoinformatics.org/protocol-2.1.0'
+         xmlns:doc='eml://ecoinformatics.org/documentation-2.1.0'
+         xmlns:res='eml://ecoinformatics.org/resource-2.1.0'
+             xmlns:xs='http://www.w3.org/2001/XMLSchema'
+             xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+         xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd'
+             packageId='umbs.61.11967'
+             system='UMBS'>
+
+<access scope="document" order="allowFirst" authSystem="umbs">
+    <allow>
+    <principal>uid=UMBS, o=umich, dc=ecoinformatics, dc=org</principal>
+    <permission>read</permission>
+  </allow>
+  <allow>
+    <principal>public</principal>
+    <permission>read</permission>
+  </allow>
+</access>
+<dataset>
+  <title>Soil carbon and nitrogen characteristics for the DIRT project.</title>
+  <creator>
+    <individualName>
+      <givenName>Jasmine</givenName>
+      <surName>Crumsey</surName>
+    </individualName>
+    <address>
+      <deliveryPoint>3369 Burbank Drive</deliveryPoint>
+      <city>Ann Arbor</city>
+      <administrativeArea>MI</administrativeArea>
+    </address>
+    <phone phonetype="voice">(706) 631-4330</phone>
+    <electronicMailAddress>jcrumsey@umich.edu</electronicMailAddress>
+  </creator>
+  <creator>
+    <individualName>
+      <givenName>Sterling</givenName>
+      <surName>Atkins</surName>
+    </individualName>
+    <address>
+      <deliveryPoint>16014 Cavendish Dr.</deliveryPoint>
+      <city>Houston</city>
+      <administrativeArea>TX</administrativeArea>
+      <postalCode>77059</postalCode>
+      <country>United States of America</country>
+    </address>
+    <phone phonetype="voice">(832) 724-9060</phone>
+  </creator>
+  <associatedParty>
+    <individualName>
+      <givenName>Jim</givenName>
+      <surName>Le Moin</surName>
+    </individualName>
+    <address>
+      <administrativeArea>MI</administrativeArea>
+      <country>United States of America</country>
+    </address>
+    <electronicMailAddress>jlemoin@umich.edu</electronicMailAddress>
+    <role>labcrew</role>
+  </associatedParty>
+  <associatedParty>
+    <individualName>
+      <givenName>Jasmine</givenName>
+      <surName>Crumsey</surName>
+    </individualName>
+    <address>
+      <deliveryPoint>3369 Burbank Drive</deliveryPoint>
+      <city>Ann Arbor</city>
+      <administrativeArea>MI</administrativeArea>
+    </address>
+    <phone phonetype="voice">(706) 631-4330</phone>
+    <electronicMailAddress>jcrumsey@umich.edu</electronicMailAddress>
+    <role>associate researcher</role>
+  </associatedParty>
+  <pubDate>2016-06-21</pubDate>
+  <language>english</language>
+  <abstract>
+    <para>
+      <literalLayout>Soil carbon and nitrogen characteristics calculated from the mass spectrometer for different soil profile levels (OEA, 0-10cm, 10-20cm).  The soil samples come from the University of Michigan Biological Station DIRT plots in 2011.</literalLayout>
+    </para>
+  </abstract>
+  <keywordSet>
+    <keyword>CARBON</keyword>
+    <keyword>EARTHWORMS</keyword>
+    <keyword>FORESTS</keyword>
+    <keyword>ISOTOPES</keyword>
+    <keyword>NITROGEN</keyword>
+    <keyword>SOIL CARBON</keyword>
+    <keyword>SOILS</keyword>
+    <keyword>Terrestrial</keyword>
+    <keywordThesaurus>UMBS Thesaurus</keywordThesaurus>
+  </keywordSet>
+  <intellectualRights>
+    <section>
+      <title>Data Policies</title>
+      <para>
+        <literalLayout>Please find data access policies and attribution recommendations here: http://umbs.lsa.umich.edu/research/data-management.</literalLayout>
+      </para>
+    </section>
+  </intellectualRights>
+  <coverage>
+    <temporalCoverage>
+      <rangeOfDates>
+        <beginDate>
+          <calendarDate>2011-06-03</calendarDate>
+        </beginDate>
+        <endDate>
+          <calendarDate>2011-07-12</calendarDate>
+        </endDate>
+      </rangeOfDates>
+    </temporalCoverage>
+  </coverage>
+  <contact>
+    <individualName>
+      <givenName>Sterling</givenName>
+      <surName>Atkins</surName>
+    </individualName>
+    <address>
+      <deliveryPoint>16014 Cavendish Dr.</deliveryPoint>
+      <city>Houston</city>
+      <administrativeArea>TX</administrativeArea>
+      <postalCode>77059</postalCode>
+      <country>United States of America</country>
+    </address>
+    <phone phonetype="voice">(832) 724-9060</phone>
+  </contact>
+  <pubPlace>University of Michigan Biological Station</pubPlace>
+  <methods>
+    <methodStep>
+      <description>
+        <section>
+          <para>
+            <literalLayout>On 3--5 June 2011 Sterling Atkins, Jasmine Crumsey, and Jim Le Moine sampled earthworms and soils in the UMBS DIRT plots.   Three  plots for each of four treatments were sampled:  control  (C), reference (REF), double litter (DL), and no litter plots (NL).  We measured earthworm population density and species diversity by electroshocking three 0.5 x 0.5 m locations within each plot.   Worms were identified, weighed, and a subset dried at 60oC to calculate a moisture conversion factor.  Intact leaf litter  from a 0.15 x 0.15 m area was sampled prior to electroshocking each location.  Surface soils from beneath the leaf litter were sampled  as a 0.15 x 0.15 m monolith following electroshocking.  Beneath the surface soils, two depths of soils were sampled  with an AMS slide hammer and split spoon sampler (core inner diameter 48 mm, length to 20 cm).  Soils were sieved through 2mm mesh and non-soil matter was separated.  Excluded material such as twigs, leaves, undecomposed plant parts, insects, visible organisms, rocks, and pebbles were bagged and frozen for future sorting.  Soil that passed through the mesh was dried at 60oC for five days and weighed.  Soils were then pulverized with a SPEX Certiprep 8000D ball mill (~4 minutes) and analyzed for %C, %N, d15N (vs air), and d13C (vs PeeDee Belemnite) with an elemental analyzer (Costech) and isotope ratio mass spectrometer (Finnigan Delta Plus XL instrument).</literalLayout>
+          </para>
+        </section>
+      </description>
+    </methodStep>
+  </methods>
+  <dataTable>
+    <entityName>DIRT 2011 Project C:N Ratios-Data File</entityName>
+    <physical>
+      <objectName>DIRT 2011 Project C:N Ratios-Data File</objectName>
+      <dataFormat>
+        <textFormat>
+          <numHeaderLines>1</numHeaderLines>
+          <attributeOrientation>Column</attributeOrientation>
+          <simpleDelimited>
+            <fieldDelimiter>,</fieldDelimiter>
+            <quoteCharacter>double quote</quoteCharacter>
+          </simpleDelimited>
+        </textFormat>
+      </dataFormat>
+    </physical>
+    <attributeList>
+      <attribute>
+        <attributeName>DIRT Site</attributeName>
+        <attributeLabel>site</attributeLabel>
+        <attributeDefinition>UMBS DIRT Plots</attributeDefinition>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>UMBS DIRT Plots</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>Year</attributeName>
+        <attributeDefinition>The year in which the sample was taken.</attributeDefinition>
+        <measurementScale>
+          <dateTime>
+            <formatString>YYYY</formatString>
+          </dateTime>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>Nadelhoffer Lab Archive ID</attributeName>
+        <attributeLabel>Archive_ID</attributeLabel>
+        <attributeDefinition>Unique identifying sample number used for archiving material in Nadelhoffer lab</attributeDefinition>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>Unique identifying sample number used for archiving material in Nadelhoffer lab</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>DIRT Block</attributeName>
+        <attributeLabel>Block</attributeLabel>
+        <attributeDefinition>The general area the DIRT plots are in.</attributeDefinition>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>The general area the DIRT plots are in.</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>DIRT Plot</attributeName>
+        <attributeLabel>Plot</attributeLabel>
+        <attributeDefinition>The specific plots in the DIRT project. Values range from 1-27.</attributeDefinition>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>The specific plots in the DIRT project. Values range from 1-27.</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>DIRT Location</attributeName>
+        <attributeLabel>Location</attributeLabel>
+        <attributeDefinition>The specific area that was sampled in each DIRT plot</attributeDefinition>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>The specific area that was sampled in each DIRT plot</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>Soil Depth</attributeName>
+        <attributeLabel>Depth</attributeLabel>
+        <attributeDefinition>Dept at which the respective sample was collected</attributeDefinition>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <enumeratedDomain>
+                <codeDefinition>
+                  <code>Oi </code>
+                  <definition> intact leaf litter found in the uppermost organic soil horizon</definition>
+                </codeDefinition>
+                <codeDefinition>
+                  <code>Oea/A </code>
+                  <definition> organic rich surface soil containing most fine roots</definition>
+                </codeDefinition>
+                <codeDefinition>
+                  <code>0-10 cm </code>
+                  <definition> Soil at depths 0-10 cm below the surface</definition>
+                </codeDefinition>
+                <codeDefinition>
+                  <code>10-20 cm </code>
+                  <definition> Soil at depths 20-40 cm below the surface</definition>
+                </codeDefinition>
+              </enumeratedDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>DIRT Treatment</attributeName>
+        <attributeLabel>Treatment</attributeLabel>
+        <attributeDefinition>The treatment in the DIRT plots is the amount of litter in each plot.  There is a no litter plot, double litter plot, a control, and a reference plot which is a plot that has no treatment on it, same as normal forest.</attributeDefinition>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <enumeratedDomain>
+                <codeDefinition>
+                  <code>C </code>
+                  <definition> Control Plot</definition>
+                </codeDefinition>
+                <codeDefinition>
+                  <code>REF </code>
+                  <definition> Reference Plot</definition>
+                </codeDefinition>
+                <codeDefinition>
+                  <code>NL </code>
+                  <definition> No Litter Plot</definition>
+                </codeDefinition>
+                <codeDefinition>
+                  <code>DL </code>
+                  <definition> Double Litter Plot</definition>
+                </codeDefinition>
+              </enumeratedDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>Soil Mass</attributeName>
+        <attributeLabel>Mass</attributeLabel>
+        <attributeDefinition>Mass of soil per unit area sampled.</attributeDefinition>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>gramsPerMeterSquared</customUnit>
+            </unit>
+            <precision>1</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>Percent Carbon</attributeName>
+        <attributeLabel>percent_C</attributeLabel>
+        <attributeDefinition>Weight percent carbon in the sample.</attributeDefinition>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>percent</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>Percent Nitrogen</attributeName>
+        <attributeLabel>percent_N</attributeLabel>
+        <attributeDefinition>Weight percent nitrogen in the sample.</attributeDefinition>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>percent</customUnit>
+            </unit>
+            <precision>0.001</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>Carbon Nitrogen Ratio</attributeName>
+        <attributeLabel>CN_ratio</attributeLabel>
+        <attributeDefinition>Mass ratio of C:N in the sample of interest.  Calculated as follows: C/N = %C / %N.</attributeDefinition>
+        <measurementScale>
+          <nominal>
+            <nonNumericDomain>
+              <textDomain>
+                <definition>Mass ratio of C:N in the sample of interest.  Calculated as follows: C/N = %C / %N.</definition>
+              </textDomain>
+            </nonNumericDomain>
+          </nominal>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>Soil Carbon Pool Size</attributeName>
+        <attributeLabel>C_pool</attributeLabel>
+        <attributeDefinition>Mass of carbon per unit area sampled.</attributeDefinition>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>gramsPerMeterSquared</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>Soil Nitrogen Pool Size</attributeName>
+        <attributeLabel>N_pool</attributeLabel>
+        <attributeDefinition>Mass of nitrogen per unit area sampled.</attributeDefinition>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>gramsPerMeterSquared</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>Isotopic Signature of Carbon 13</attributeName>
+        <attributeLabel>d13C</attributeLabel>
+        <attributeDefinition>Deviation in ratio of 13C:12C of a sample from the 13C:12C ratio found in the  Pee Dee Belemnite (PDB) limestone standard.</attributeDefinition>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>perMille</customUnit>
+            </unit>
+            <precision>0.01</precision>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+      <attribute>
+        <attributeName>Isotopic Signature of Nitrogen 15</attributeName>
+        <attributeLabel>d15N</attributeLabel>
+        <attributeDefinition>Deviation in ratio of 15N:14N of a sample from the 15N:15N ratio found in air. </attributeDefinition>
+        <measurementScale>
+          <ratio>
+            <unit>
+              <customUnit>perMille</customUnit>
+            </unit>
+            <numericDomain>
+              <numberType>real</numberType>
+            </numericDomain>
+          </ratio>
+        </measurementScale>
+      </attribute>
+    </attributeList>
+  </dataTable>
+</dataset>
+<additionalMetadata>
+  <metadata>
+    <stmml:unitList xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd">
+<stmml:unit id="gramsPerMeterSquared" name="gramsPerMeterSquared" abbreviation="" unitType=""><stmml:description/></stmml:unit>
+
+<stmml:unit id="percent" name="percent" abbreviation="%" unitType="dimensionless" parentSI="numberPerNumber" multiplierToSI="100" constantToSI="0"><stmml:description>ratio of two quantities as percent composition (1:100)</stmml:description></stmml:unit>
+<stmml:unit id="percent" name="percent" abbreviation="%" unitType="dimensionless" parentSI="numberPerNumber" multiplierToSI="100" constantToSI="0"><stmml:description>ratio of two quantities as percent composition (1:100)</stmml:description></stmml:unit>
+<stmml:unit id="gramsPerMeterSquared" name="gramsPerMeterSquared" abbreviation="" unitType=""><stmml:description/></stmml:unit>
+
+<stmml:unit id="gramsPerMeterSquared" name="gramsPerMeterSquared" abbreviation="" unitType=""><stmml:description/></stmml:unit>
+
+<stmml:unit  id="perMille"/>
+<stmml:unit  id="perMille"/>
+    </stmml:unitList>
+  </metadata>
+</additionalMetadata>
+</eml:eml>

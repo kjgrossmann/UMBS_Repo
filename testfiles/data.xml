@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<eml:eml xmlns:eml='eml://ecoinformatics.org/eml-2.1.0'
+             xmlns:stmml='http://www.xml-cml.org/schema/stmml'
+         xmlns:sw='eml://ecoinformatics.org/software-2.1.0'
+         xmlns:cit='eml://ecoinformatics.org/literature-2.1.0'
+         xmlns:ds='eml://ecoinformatics.org/dataset-2.1.0'
+         xmlns:prot='eml://ecoinformatics.org/protocol-2.1.0'
+         xmlns:doc='eml://ecoinformatics.org/documentation-2.1.0'
+         xmlns:res='eml://ecoinformatics.org/resource-2.1.0'
+             xmlns:xs='http://www.w3.org/2001/XMLSchema'
+             xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+         xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd'
+             packageId='umbs.97.10771'
+             system='UMBS'>
+  <child>This child contains text.</child>
+  <child_with_tail>This child has regular text.</child_with_tail>And "tail" text.
+  <with_attributes name="value" foo="bar" />
+  <entity_expansion attribute="This &#38; That">That &#38; This</entity_expansion>
+
+	<access scope="document" order="allowFirst" authSystem="umbs">
+		<allow>
+		<principal>abc</principal>
+		<permission>read</permission>
+	  </allow>
+	  <allow>
+		<principal>public</principal>
+		<permission>read</permission>x
+	  </allow>
+	</access>
+	<dataset>
+	  <title>Antlion change in mass by substrate size</title>
+	  <creator>
+		<individualName>
+		  <givenName>Marcella </givenName>
+		  <surName>Baiz</surName>
+		</individualName>
+		<address>
+		  <deliveryPoint>numbers</deliveryPoint>
+		  <city>Parma</city>
+		  <administrativeArea>MI</administrativeArea>
+		  <postalCode>numbers</postalCode>
+		  <country>United States of America</country>
+		</address>
+		<phone phonetype="voice">symbols and numbers</phone>
+		<electronicMailAddress>at sign</electronicMailAddress>
+	  </creator>
+	  <associatedParty>
+		<role>associate researcher</role>
+	  </associatedParty>
+	  <pubDate>dashes</pubDate>
+	  <language>english</language>
+	  <abstract>
+		<para>
+		  <literalLayout>Antlion mass at two time points for antlions kept in sand of two different substrate sizes</literalLayout>
+		</para>
+	  </abstract>
+	  <keywordSet>
+		<keyword>GROWTH RATES</keyword>
+		<keyword>MYRMELEON</keyword>
+		<keyword>Population parentheses</keyword>
+		<keyword>SUBSTRATE</keyword>
+		<keywordThesaurus>UMBS Thesaurus</keywordThesaurus>
+	  </keywordSet>
+	  <intellectualRights>
+		<section>
+		  <title>Data Policies</title>
+		  <para>
+			<literalLayout>url</literalLayout>
+		  </para>
+		</section>
+	  </intellectualRights>
+	  <distribution>
+		<online>
+		  <url>slashes</url>
+		</online>
+	  </distribution>
+	  <coverage>
+		<temporalCoverage>
+		  <rangeOfDates>
+			<beginDate>
+			  <calendarDate>dashes</calendarDate>
+			</beginDate>
+			<endDate>
+			  <calendarDate>dashes</calendarDate>
+			</endDate>
+		  </rangeOfDates>
+		</temporalCoverage>
+	  </coverage>
+	  <contact>
+		<individualName>
+		  <givenName>Marcella </givenName>
+		  <surName>Baiz</surName>
+		</individualName>
+		<address>
+		  <deliveryPoint>8630 County Farm Rd</deliveryPoint>
+		  <city>Parma</city>
+		  <administrativeArea>MI</administrativeArea>
+		  <postalCode>49269</postalCode>
+		  <country>United States of America</country>
+		</address>
+		<phone phonetype="voice">parentheses</phone>
+		<electronicMailAddress>at sign</electronicMailAddress>
+	  </contact>
+	  <pubPlace>University of Michigan Biological Station</pubPlace>
+	  <methods>
+		<methodStep>
+		  <description>
+			<section>
+			  <para>
+				<literalLayout>Antlions were weighed </literalLayout>
+			  </para>
+			</section>
+		  </description>
+		</methodStep>
+	  </methods>
+	  <dataTable>
+		<entityName>antli</entityName>
+		<physical>
+		  <objectName>antli</objectName>
+		  <dataFormat>
+			<textFormat>
+			  <numHeaderLines>1</numHeaderLines>
+			  <recordDelimiter>newline</recordDelimiter>
+			  <attributeOrientation>Column</attributeOrientation>
+			  <simpleDelimited>
+				<fieldDelimiter>comma</fieldDelimiter>
+				<quoteCharacter>double quote</quoteCharacter>
+			  </simpleDelimited>
+			</textFormat>
+		  </dataFormat>
+		  <distribution>
+			<online>
+			  <url>si</url>
+			</online>
+		  </distribution>
+		</physical>
+		<coverage>
+		  <temporalCoverage>
+			<rangeOfDates>
+			  <beginDate>
+				<calendarDate>201</calendarDate>
+			  </beginDate>
+			  <endDate>
+				<calendarDate>20</calendarDate>
+			  </endDate>
+			</rangeOfDates>
+		  </temporalCoverage>
+		</coverage>
+		<attributeList>
+		  <attribute>
+			<attributeName>Antlion ID</attributeName>
+			<attributeLabel>ID</attributeLabel>
+			<attributeDefinition>Unique ID number ass</attributeDefinition>
+			<measurementScale>
+			  <nominal>
+				<nonNumericDomain>
+				  <textDomain>
+					<definition>Unique ID number assigned to individual ant</definition>
+				  </textDomain>
+				</nonNumericDomain>
+			  </nominal>
+			</measurementScale>
+		  </attribute>
+		  <attribute>
+			<attributeName>Substrate</attributeName>
+			<attributeDefinition>Describes size of the substrate that antlions were housed in</attributeDefinition>
+			<measurementScale>
+			  <nominal>
+				<nonNumericDomain>
+				  <enumeratedDomain>
+					<codeDefinition>
+					  <code>Fine </code>
+					  <definition> sa</definition>
+					</codeDefinition>
+					<codeDefinition>
+					  <code>Coarse </code>
+					  <definition> san</definition>
+					</codeDefinition>
+				  </enumeratedDomain>
+				</nonNumericDomain>
+			  </nominal>
+			</measurementScale>
+		  </attribute>
+		  <attribute>
+			<attributeName>Initial antlion mass</attributeName>
+			<attributeLabel>Initial mass</attributeLabel>
+			<attributeDefinition>Mass of an</attributeDefinition>
+			<measurementScale>
+			  <ratio>
+				<unit>
+				  <standardUnit>milligram</standardUnit>
+				</unit>
+				<precision>0</precision>
+				<numericDomain>
+				  <numberType>real</numberType>
+				</numericDomain>
+			  </ratio>
+			</measurementScale>
+		  </attribute>
+		  <attribute>
+			<attributeName>Final antlion mass</attributeName>
+			<attributeLabel>Final mass</attributeLabel>
+			<attributeDefinition>Mass of antlions on the last</attributeDefinition>
+			<measurementScale>
+			  <ratio>
+				<unit>
+				  <standardUnit>milligram</standardUnit>
+				</unit>
+				<precision>0</precision>
+				<numericDomain>
+				  <numberType>real</numberType>
+				</numericDomain>
+			  </ratio>
+			</measurementScale>
+		  </attribute>
+		</attributeList>
+	  </dataTable>
+	</dataset>
+
+</eml:eml>
